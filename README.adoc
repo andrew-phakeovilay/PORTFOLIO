@@ -2,24 +2,34 @@
 :icons: font
 :diagrams: .
 :experimental:
-:classroom-link: https://classroom.github.com/a/gWXnQmIT
 :imagesdir: images
+
+// Specific to GitHub
+ifdef::env-github[]
+:toc:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:icongit: Git
+endif::[]
 
 //---------------------------------------------------------------
 
 Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez mes projets.
 
-== A propos de moi
+== À propos de moi
 
 Étudiant en informatique. Motivé pour développer mes compétences informatiques telles que Java (8,17), Python 3, SQL, C, HTML5 & CSS3, Asciidoc en langages de programmation.
 Je suis capable de manipuler des logiciels tels qu'Eclipse, SQLdeveloper, Visual Studio Code, VirtualBox et WinDesign.
 
-Au sein de l'IUT :
-. J'ai travaillé en tant que chef de groupe sur le développement d'une application banque sur Java en lien avec une base de données, donc je fais preuve d'autonomie, d'organisation et de gestion de conflit.
-. J'ai géré une base de données d'une entreprise où j'ai eu à améliorer l'existant et documenter
+** Au sein de l'IUT :
+* J'ai travaillé en tant que chef de groupe sur le développement d'une application banque sur Java en lien avec une base de données, donc je fais preuve d'autonomie, d'organisation et de gestion de conflit.
+* J'ai géré une base de données d'une entreprise où j'ai eu à améliorer l'existant et documenter
 
-Au sein d'une entreprise :
-J'ai également travaillé en tant qu'opérateur de production en intérim chez Continental en job d'été.
+** Au sein d'une entreprise :
+* J'ai également travaillé en tant qu'opérateur de production en intérim chez Continental en job d'été.
 
 En termes de centres d'intérêt, j'aime la simulation, effectuer des tests, j'aime aussi le design, l'esthétique des interfaces et j'aime la technologie auquel je me tiens au courant tous les jours.
 
