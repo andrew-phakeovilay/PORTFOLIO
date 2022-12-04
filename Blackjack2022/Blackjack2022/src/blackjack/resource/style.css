@@ -1,0 +1,81 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.buttonInterface{
+    -fx-background-color: gold;
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-padding: 10 20 10 20;
+}
+
+.buttonInterface:hover{
+	-fx-background-color:#ffb302;
+}
+
+.buttonInterface:active {
+ 	-fx-color:white;
+}
+
+.contenu{
+    -fx-background-color:linear-gradient(to bottom, green, #013220);	
+}
+
+.menu
+{
+	-fx-background-color:linear-gradient(to bottom, #880808, #6E260E);
+}
+
+.scorejoueurs{
+    -fx-background-color: gold;
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-padding: 10 20 10 20;
+    -fx-border-width:5;
+    -fx-border-color:linear-gradient(to bottom, #7B1818, #4A0404);
+}
+
+.argent{
+    -fx-background-color:linear-gradient(to bottom, #7B1818, #4A0404);
+    -fx-border-width:5;
+    -fx-border-style:solid;
+    -fx-border-color:linear-gradient(to bottom, gold, #ffb302);
+}
+
+.pointgauche{
+    -fx-background-color:linear-gradient(to bottom, #7B1818, #4A0404);
+    -fx-border-width:5;
+    -fx-border-style:solid hidden solid solid;
+    -fx-border-color:linear-gradient(to bottom, gold, #ffb302);
+}
+
+.pointdroite{
+    -fx-background-color:linear-gradient(to bottom, #7B1818, #4A0404);
+    -fx-border-width:5;
+    -fx-border-style:solid solid solid hidden;
+    -fx-border-color:linear-gradient(to bottom, gold, #ffb302);
+}
+
+.pointmilieu{
+    -fx-background-color:linear-gradient(to bottom, #7B1818, #4A0404);
+    -fx-border-width:5;
+    -fx-border-style:solid hidden solid hidden;
+    -fx-border-color:linear-gradient(to bottom, gold, #ffb302);
+}
+
+.accueil{
+    -fx-padding: 50 50 50 50;
+}
+
+.titreAccueil{
+    -fx-background-color: gold;
+    -fx-border-style:solid solid solid solid;
+    -fx-border-radius:10;
+    -fx-border-width:5;
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,2,0;
+    -fx-padding: 10 20 10 20;
+}
+
+.list{
+    -fx-font-size: 18;
+    -fx-font-family: "Courier New Bold";
+}
