@@ -1,0 +1,31 @@
+---
+servers: chirpstack.iut-blagnac.fr
+port: 1883
+name: Blue Gym
+object:
+  activity: true
+  co2: true
+  humidity: true
+  illumination: true
+  infrared: true
+  infrared_and_visible: true
+  pressure: true
+  temperature: true
+  tvoc: true
+seuils:
+  activity: null
+  co2:
+    - 0
+    - 0
+  humidity:
+    - null
+    - null
+  illumination: null
+  infrared: null
+  infrared_and_visible: null
+  pressure: null
+  temperature:
+    - null
+    - null
+  tvoc: null
+frequency: 0

@@ -1,0 +1,142 @@
+= SAÉ 3.01 2022-2023 : Documentation utilisateur Web
+:incremental:
+:numbered:
+:TOC:
+:TOC-title: Sommaire
+
+== Présentation du projet
+
+=== Equipe
+
+
+Ce Projet à été est réalisé par::
+
+- https://github.com/Munozmu[Gabin Munoz] 
+- https://github.com/AurelienSP[Aurelien Sanchez-Porro]
+- https://github.com/Hugo-Vacquier[Hugo Vacquier]
+- https://github.com/andrew-phakeovilay[Andrew Phakeovilay]
+- https://github.com/quentin-beaufort[Quentin Beaufort]
+
+Tuteur/tutrice enseignant(e) de l'équipe:: mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
+
+=== Contexte
+
+Dû au Covid-19, la population française a été confinée chez eux. +
+Cela a causé une augmentation dans le commerce en ligne, ainsi qu'une baisse de vente en magasin.
+
+BlueGym est une entreprise de vente de matériel de musculation, fondée en 2008 par deux personnes, et compte aujourd'hui 2 employés en plus des co-créateurs. +
+Leur magasin est basé à Toulouse, et jusqu'à récemment, possédait un site vitrine.
+
+Pour permettre à BlueGym de se développer à un niveau national et de profiter de cette augmentation de ventes en ligne, nous avons développé un site d'e-commerce pour l'entreprise.
+
+== Accès
+
+L'utilisateur à deux moyens d'accéder au site. Tout dépend du réseau sur lequel il est branché.
+
+S'il est branché en filaire à l'iut, il a accès au site avec l'adresse ip http://192.168.224.139/~SAESYS04.
+
+Sinon, il peut accéder au site en utilisant l'adresse http://193.54.227.164/~SAESYS04.
+
+En entrant cette adresse, il sera renvoyé sur la page index, d'où il pourra effectuer plusieurs actions, tels qu'accéder aux pages des articles, ou se connecter à son compte.
+
+.page index du site web 
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/DU_index.png[index]
+
+== Navigation
+
+L'utilisateur peut accéder aux différents produits de l'entreprise, en utilisant la barre de recherche, ou en navigant à travers la barre de catégories (se trouvant juste sous le logo et la barre de recherche).
+
+Quand l'utilisateur clique sur un élément de la barre de catégories, un menu est déroulé. Le menu contient les sous-catégories de celle choisie, ainsi qu'un lien "Tout voir". Le lien "Tout voir" permet à l'utilisateur d'accéder aux produits de la catégorie choisie.
+
+.Menu de la catégorie "barre de traction" déroulé
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/DU_CAT_BARRE.png[barre de traction]
+
+Une fois que l'utilisateur a décidé où se diriger, il accède à une page présentant les produits de la catégorie demandée. Le nom, la photo et le prix de l'image des produits sont affichés. L'utilisateur peut donc cliquer sur la fiche d'un produit, afin d'accéder à la page du produit. +
+Sinon, l'utilisateur peut basculer sur les produits des catégories en rapport avec celle choisie (catégorie mère, sous-catégorie, ...). Il peut aussi retourner à l'accueil, en cliquant sur le logo de l'entreprise ou en suivant une petite arborescence.
+
+.Page de produits de la catégorie "Barre de traction porte"
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/DU_EXEMP_BARRE.png[exemple avec les barres]
+
+== Inscription et Connexion
+
+L'utilisateur peut s'inscrire ou se connecter à son compte. +
+Pour cela, il doit cliquer sur l'icône représentant un individu, et cliquer sur "Connexion" où "Inscription".
+
+Il devra remplir un formulaire, pour créer un compte ou se connecter, et sera ensuite renvoyé sur la page d'accueil, connecté. +
+Si certaines informations sont invalides, le site le précisera une fois que l'utilisateur envoie le formulaire.
+
+.Formulaire d'inscription
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/DU_inscri.png[page d'inscription]
+.Formulaire de connexion
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/DU_connex.png[page de connexion]
+
+== Panier et Achats
+
+=== [.underline]#Ajout dans le panier#
+
+S'il est intéressé dans l'achat d'un produit, l'utilisateur peut ajouter ce produit dans son panier. +
+Pour cela, sur la page du produit, l'utilisateur peut indiquer le nombre de produits à ajouter au panier, et cliquer sur le bouton "Ajouter au panier".
+
+=== [.underline]#Consultation du panier#
+
+L'utilisateur peut accéder à son panier en cliquant sur l'icône en forme de cadis, en haut de la page. +
+Si l'utilisateur à des produits dans le panier, un petit badge avec le nombre d'articles sera présent à côté de l'icône du panier.
+
+Une fois l'icône cliquée, l'utilisateur sera redirigé vers une page présentant les différents articles du panier, ainsi que leur quantité, et le prix total du panier. +
+L'utilisateur peut donc décider de supprimer des éléments du panier, ou de confirmer la commande.
+
+=== [.underline]#Suppression d'un élément du panier#
+
+Sur la page du panier, l'utilisateur peut retirer un produit du panier. +
+Pour cela, il peut appuyer sur les boutons : 
+
+- "Supprimer 1", afin de supprimer 1 exemplaire du produit
+- "Supprimer tout", afin de supprimer complètement le produit du panier
+
+=== [.underline]#Confirmation de la commande#
+
+Afin de confirmer sa commande, l'utilisateur doit cliquer sur le bouton "passer commande". Si l'utilisateur n'est pas connecté, alors il sera renvoyé sur la page de connexion (cf. <<#inscription-et-connexion,Inscription et Connexion>>). +
+Après s'être connecté, l'utilisateur devra choisir s'il décide de garder son panier d'avant être connecté, ou s'il décide de garder le panier affilié à son utilisateur.
+
+Enfin, l'utilisateur doit indiquer ses coordonnées bancaires, afin de payer la commande.
+
+
+== Administration
+
+Si un utilisateur est administrateur, il peut accéder à un menu administrateur en cliquant sur l'icône d'utilisateur, et en allant sur "Actions Administrateur".
+
+.Actions possibles pour un administrateur
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/DU_act_Adm.png[menu utilisateur pour administrateur]
+
+Depuis ce menu, il aura accès à plusieurs actions, étant :
+
+- Ajouter un produit, afin d'ajouter un produit sur le catalogue du site
+- Modifier un produit, pour modifier un produit du catalogue
+- Supprimer un produit, qui permet de retirer un produit du catalogue
+- Gestion des stocks des produits, afin de mofifier le nombre de produits disponible
+- Ajouter un administrateur, qui permet de promouvoir un utilisateur au rang d'administrateur
+
+.Menu administrateur
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/DU_menu_adm.png[menu administrateur]
+
+Ce menu, ainsi que ces actions, ne seront accessible uniquement par un administrateur. Si un utilisateur essaie d'y accéder, il sera envoyé sur le menu principal du site.
+
+=== Ajout d'un produit
+
+Un administrateur peut ajouter un produit dans le catalogue. +
+Pour cela, il doit aller sur le lien "Ajouter un produit". +
+Il est ensuite amené à remplir un formulaire, qui reprends les différents éléments du produit (son nom, son prix, ...). +
+
+.Formulaire d'ajout de produit rempli
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/DU_ajout_prod.png[formulaire produit]
+
+Le formulaire peut être soumis sans entrer aucune information. Un produit sera créé avec uniquement l'identifiant. L'administrateur pourra ensuite le modifier dans la section "Modifier un produit".
+
+=== Ajout d'un administrateur
+
+Un administrateur peut promouvoir un utilisateur au rang "d'administrateur du site". +
+Après avoir cliqué sur le lien "Ajouter un administrateur", il aura accès à une liste de tous les comptes utilisateurs du site. +
+Il suffit à l'administrateur de trouver l'utilisateur à qui il souhaite donner le role d'admin, et de cliquer sur le bouton "Promouvoir au rang d'administrateur". 
+
+.Liste des utilisateurs pouvant devenir administrateur
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/DU_ajout_adm.png[liste utilisateurs]

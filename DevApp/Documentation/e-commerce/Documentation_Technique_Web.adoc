@@ -1,0 +1,101 @@
+= SAÉ 3.01 2022-2023 : Documentation technique Web
+:incremental:
+:numbered:
+:TOC:
+:TOC-title: Sommaire
+
+== Présentation du projet
+
+=== Equipe
+
+
+Ce Projet à été est réalisé par::
+
+- https://github.com/Munozmu[Gabin Munoz] 
+- https://github.com/AurelienSP[Aurelien Sanchez-Porro]
+- https://github.com/Hugo-Vacquier[Hugo Vacquier]
+- https://github.com/andrew-phakeovilay[Andrew Phakeovilay]
+- https://github.com/quentin-beaufort[Quentin Beaufort]
+
+Tuteur/tutrice enseignant(e) de l'équipe:: mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
+
+=== Contexte
+
+Dû au Covid-19, la population française a été confinée chez eux. +
+Cela a causé une augmentation dans le commerce en ligne, ainsi qu'une baisse de vente en magasin.
+
+BlueGym est une entreprise de vente de matériel de musculation, fondée en 2008 par deux personnes, et compte aujourd'hui 2 employés en plus des co-créateurs. +
+Leur magasin est basé à Toulouse, et jusqu'à récemment, possédait un site vitrine.
+
+Pour leur permettre de se développer à un niveau national et de profiter de cette augmentation de ventes en ligne, BlueGym nous a donc donné pour mission de leur élaborer un site web d'e-commerce.
+
+== Architecture
+
+Le site que nous produisons doit respecter une arborescence précise : +
+Depuis la page d'accueil, l'utilisateur doit pouvoir accéder aux pages des différentes catégories, puis aller sur la page de l'article qui l'interesse. +
+
+Le site est composé de cette façon : 
+
+image::https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/images/SAES3_G14_SEP.drawio.png[diagramme_site]
+
+Le site est composé de plusieurs pages php, certaines étant uniquement des pages de traitement, d'autres sont des parties du site.
+
+Ces premières pages sont les pages qui ne se trouvent dans aucun repertoire spécifique, et sont toutes la base du site.
+
+.Pages de base
+|=== 
+|*Fichier* | *Rôle*
+|index.php | Accueil du site permettant d'accéder aux catégories, faire une recherche ou se connecter à son compte
+|product.php | Page d'un produit avec ses détails, ajout du produit dans le panier
+|search.php | Affichage des produits correspondant à une recherche
+|formLogin.php / formRegister.php | Formulaire  de connexion / inscription
+|traitLogin.php / traitRegister.php | Traitement de la connexion / inscription
+|deconnexion.php | Traitement de la déconnexion de l'utilisateur
+|profile.php | Profil de l'utilisateur, récap des commandes, déconnexion, parametres du compte
+|favorite.php | Affichage des produits favoris de l'utilisateur
+|cart.php | Panier de l'utilisateur
+|addingToCart.php / deleteFromCart.php | Traitement de l'ajout ou de la suppression d'un produit dans le panier
+|cookieCart_to_BDCart.php | Demande à l'utilisateur si il veut garder le panier stocké dans ses cookies ou celui stocké dans la base de données
+|traitTransitingCart | Envoi du panier stocké dans les cookies vers la base de données
+|shipping-process | Permet de récupérer les données de livraison, pour les utiliser lors des informations de paiement
+|payment.php | Page où l'utilisateur peut payer la commande
+|purchaseOrder.php | Passe la commande, et l'envoie dans la base de données
+|contact.php | Page contenant les moyens de contact de l'entreprise
+|cUtil.php| Page listant les conditions d'utilisation
+|lore.php| Page avec l'histoire de l'entreprise
+|=== 
+
+Ce deuxième groupe de pages se trouve dans un dossier "includes/". Ces pages sont récupérées par les pages de base, et sont parfois inclues dans l'affichage.
+
+.Pages dans "includes/"
+|=== 
+|*Fichier* | *Rôle*
+|connect.inc.php | Permet aux pages qui l'incluent de se connecter à une base de données.
+|header.php | Bloc au sommet des pages web, qui contient le logo de BlueGym, la barre de recherche et les icônes de panier, utilisateur et langue.
+|catHeader.php | Se trouve sous le header, et contient les listes déroulantes de catégories. +
+Se connecte à la base de données (via connect.inc.php) pour afficher les catégories.
+|footer.php | Se trouve en bas de la page, contient les liens pour les réseaux sociaux, l'adresse et les contacts de l'entreprise.
+|=== 
+
+Ce troisième groupe de fichiers se trouve dans le dossier "administration/", et sont principalement des pages auquel seul les administrateurs du site ont accès.
+
+.Pages dans "administration/"
+|=== 
+|*Fichier* | *Rôle*
+|admin.php | menu principal pour les actions administratives
+|formAjoutAdmin.php | Permet à un administrateur de donner à un client le titre d'administrateur
+|formAjoutProduit.php | Permet à un administrateur d'ajouter un produit de la base de données
+|formRetireProduit.php | Permet à un administrateur de retirer un produit de la base de données
+|formModifProduit.php | Permet à un administrateur de modifier les informations d'un produit
+|===
+
+Les fichiers CSS, qui se trouve dans le dossier "assets/css/" permettent de mettre un certain style à une page.
+
+.Fichiers CSS dans "assets/css/"
+|=== 
+|*Fichier* | *Rôle*
+|main.css | Style principal des pages
+|product_page.css | Style de la page de produit
+|profile_page.css | Style de la page de profil d'un utilisateur 
+|search.css | Style de la page de recherche
+|===

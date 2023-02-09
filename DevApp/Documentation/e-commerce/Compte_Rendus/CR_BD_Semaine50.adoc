@@ -1,0 +1,22 @@
+= SAE 3 Conception et Développement d’application : Compte rendu de la Base de données (semaine 50)
+:TOC:
+:TOC-title: Sommaire
+
+_Quentin Beaufort, Gabin Munoz, Andrew Phakeovilay, Aurélien Sanchez-Porro, Hugo Vacquier_ +
+_Groupe 1B_4_
+
+
+== Compte rendu de la semaine S50 BD
+
+Pour cette semaine, l'objectif que nous nous étions fixé était dans un premier temps de créer le scripte initial de notre base de données développée pour que nous puissions commencer à travailler dessus avec le site web PHP. +
+Dans un second temps, nous voulions commencer de créer le jeu d’essai pour certaine table afin de réaliser des tests plus poussé en PHP mais aussi de se donner des idées concernant les différentes procédure stockées, package et trigger que nous devrions développer pour simplifier l’utilisation de la BD et pouvoir y travailler dessus dès le début de la semaine 01. +
+C’est pour ça que nous avons décidé dans un premier temps de compléter le jeu d’essai pour les tables (CLIENT, PRODUIT, CATÉGORIE, PANIER, QUANTITÉPANIER, COMMANDE) il nous manque environ une soixantaine de ligne à insérer encore dans la table commande pour réaliser les 100 commandes attendu pour le jeu d’essai finale.
+
+== Compte rendu et avancée du projet en BDD
+
+L'avancée prévisionnelle que nous avions fait pour ces deux premières semaines de développement est cohérente avec les résultats obtenus, en effet nous avons une base de données logique qui répond parfaitement aux critères de nos clients qui l’ont validé. +
+De plus, la création du script cette semaine et l’insertion de plusieurs données nous permettent de commencer à tester les pages php que nous développons. L’objectif que nous voulions atteindre avant les vacances était donc respecté. 
+
+== Base de données
+
+Vous pouvez acceder au script pour la création de la base de données en cliquant https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/BD/Script.sql[ici]

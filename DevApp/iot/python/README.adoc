@@ -1,0 +1,102 @@
+= SAÉ 3.01 2022-2023
+:icons: font
+:models: models
+:experimental:
+:incremental:
+:numbered:
+:toc: macro
+:window: _blank
+:correction!:
+
+// Useful definitions
+:asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]
+:icongit: icon:git[]
+:git: http://git-scm.com/[{icongit}]
+:plantuml: https://plantuml.com/fr/[plantUML]
+:vscode: https://code.visualstudio.com/[VS Code]
+
+ifndef::env-github[:icons: font]
+// Specific to GitHub
+ifdef::env-github[]
+:correction:
+:!toc-title:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+:icongit: Git
+endif::[]
+
+// /!\ A MODIFIER !!!
+:baseURL: https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4
+
+
+toc::[]
+
+== Equipe
+
+Projet est réalisé par::
+
+- https://github.com/Munozmu[Gabin Munoz] CDP
+- https://github.com/AurelienSP[Aurelien Sanchez-Porro]
+- https://github.com/Hugo-Vacquier[Hugo Vacquier]
+- https://github.com/andrew-phakeovilay[Andrew Phakeovilay]
+- https://github.com/quentin-beaufort[Quentin Beaufort]
+
+
+Tuteur/tutrice enseignant(e) de l'équipe:: mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
+
+== Contexte Python - IoT
+
+Nous devons réaliser des solutions avec l'Internet des Objets (IoT) pour simplifier la gestion des entrepôts de stockage ou faire des économies d'énergie de notre client.
+
+Dans la partie python, nous devons lire en fonction du fichier de configuration crée par Java des données à l'aide du capteur AM107, on obtiens comme type de données :
+
+- La température (plage -20°C à 70°C)
+- L'humidité (plage 0% à 100%)
+- La détection de mouvement jusqu'à 4-5m de distance (angle 41.8° vertical et 47° horizontal)
+- L'éclairage (plage 60 000 lux)
+- CO2 (plage 400 - 5 000 partie par millions)
+- La qualité de l'air (0 - 60 000 ppb microgramme par litre)
+- La pression atmosphérique (plage 300 - 1100 hPa hectopascal)
+- L'infrarouge non visible et visible
+
+Le fichier de configuration est un fichier de type YAML où nous y trouvons :
+
+- server : serveur à se connecter
+- port : port à se connecter
+- name : nom au début du/des fichiers
+- object[ ] avec les types de données qui seront soit en 'true' ou 'false'
+- seuils[ ] avec les seuils maximales et des intervalles
+- frequency : tous les combien de secondes nous récoltons les données
+
+Une fois les données collectées, nous stockons les valeurs dans des fichiers de type .txt que Java va lire.
+
+[[liensUtiles]]
+=== Liens utiles
+
+- Le https://webetud.iut-blagnac.fr/mod/resource/view.php?id=24071[Sujet IoT et Python page 2-3] sur la SAE
+- Le https://webetud.iut-blagnac.fr/pluginfile.php/39925/mod_resource/content/3/TP-SAE-S3-AM107-entrepot-etudiant.html[Sujet IoT et documentation du capteur AM107] de l'IUT.
+
+
+== Réalisations 
+
+. Afin de pouvoir exécuter le code Python, nous devons installer Python et PIP, il est recommandé d'installer Python 3.4+, car PIP est inclus par défaut.
+
+. Une fois installé, nous devons télécharger des librairie, pyyaml pour pourvoir lire un fichier .YAML et paho.mqtt pour pouvoir se connecter au capteur.
+
+TIP: Dans un terminal, exécutez `pip install pyyaml` et `pip install paho.mqtt`
+
+Une fois les librairies installés, vous pouvez exécutez le fichier sur un IDE de python (PyCharm, Visual Studio Code) en n'oubliant pas d'avoir son workspace en confiance afin d'avoir les extensions, débuggage activées et les tâches autorisées à s'exécuter (le cas de Visual Studio Code).
+
+== Documentation de tests et fichiers
+
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/9a6faaf6a7e2e75a01278da9ddfc62c0015c5fb2/iot/python/config_mqtt.yaml[Le modèle de fichier de configuration YAML]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/9a6faaf6a7e2e75a01278da9ddfc62c0015c5fb2/iot/python/Python_SAE_IoT_1G4.py[Le fichier Python]
+- Documentations de tests (il est préférable de lire les documents dans cette ordre afin d'avoir une suite logique du code) :
+. https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/eac9e98aef689814f16cb814a818d7a4e7eb7c5e/iot/python/test/DocTest_1.pdf[Lire le fichier de configuration]
+. https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/eac9e98aef689814f16cb814a818d7a4e7eb7c5e/iot/python/test/DocTest_2.pdf[Extraction des valeurs]
+. https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/eac9e98aef689814f16cb814a818d7a4e7eb7c5e/iot/python/test/DocTest_3.pdf[Fréquence de lecture]
+. https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/eac9e98aef689814f16cb814a818d7a4e7eb7c5e/iot/python/test/DocTest_4.pdf[Ecriture dans les fichiers]
+. https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/eac9e98aef689814f16cb814a818d7a4e7eb7c5e/iot/python/test/DocTest_5.pdf[Dépassements de seuils]

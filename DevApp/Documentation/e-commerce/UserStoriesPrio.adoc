@@ -1,0 +1,28 @@
+= SAÉ 3.01 2022-2023
+== Priorité des User Stories
+
+Dans ce document, vous pourrez retrouver, sous forme de tableau, les user stories ainsi que leur prioritées.
+
+Ce document sera utile lors de la création d'issues, ainsi que lors de la production de backlogs
+
+
+.Priorité des User Stories
+|===
+|User Stories |Priorité 
+
+|L’utilisateur peut accéder au site et voir la page d'accueil| 1
+|L’utilisateur peut se balader de rubriques en rubriques à travers le menu| 2
+|L'utilisateur peut filtrer les produits| 2
+|L’utilisateur peut faire une recherche sur le site grâce à la barre de recherche| 2
+|L’utilisateur peut accéder à une page de connexion afin de se connecter| 3
+|L’utilisateur peut créer son compte en donnant son adresse email| 3
+|L'utilisateur peut consulter son profil| 3
+|L'utilisateur peut ajouter un produit à son panier| 4
+|L'utilisateur peut consulter son panier| 4
+|L'utilisateur peut acheter le contenu de son panier par carte bancaire| 4
+|L'utilisateur peut ajouter des produits en favori| 5
+|L’utilisateur peut consulter les favori| 5
+|L'utilisateur devient client quand il a acheté un produit| 5
+|L'utilisateur peut consulter le site en ' mode nuit '| 6
+
+|===

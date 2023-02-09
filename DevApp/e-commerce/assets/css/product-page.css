@@ -1,0 +1,98 @@
+/* ============================ */
+/* Style pricnipal du conteneur */
+/* ============================ */
+.container {
+    margin-top: 50px;
+}
+
+
+/* =============================== */
+/* Affichage des images du produit */
+/* =============================== */
+.product-image-displayer {
+    display: flex;
+    object-fit: contain;
+    background-color: red;
+}
+
+.product-image-displayer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-image-switcher {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.button-group button {
+    border: 1px solid #333;
+    border-radius: 0;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    outline: none;
+    border: 1px solid #333;
+}
+
+.dropdown button {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+
+.btn,
+.btn-primary {
+    padding: 0;
+}
+
+/* =========================== */
+/* Informations sur le produit */
+/* =========================== */
+
+.product-title {
+    font-weight: 600;
+}
+
+.product-description p {}
+
+.ajouter-panier {
+    border: 1px solid #333;
+    border-radius: 0;
+    padding: 15px 50px;
+}
+
+.ajouter-panier:hover {
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+}
+
+/* ======== */
+/* Notation */
+/* ======== */
+
+.rate-section {}
+
+.rate-section svg {
+    fill: #fdcb6e;
+}
+
+
+/* ================== */
+/* Suggestion produit */
+/* ================== */
+
+.card-displayer-suggestion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

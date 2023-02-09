@@ -1,0 +1,6 @@
+servers: chirpstack.iut-blagnac.fr
+port: 1883
+name: dsq
+seuils: {activity: 1.0}
+frequency: 180
+object: {activity: true}

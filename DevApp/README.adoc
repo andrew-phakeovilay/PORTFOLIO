@@ -1,0 +1,163 @@
+= SAÉ 3.01 2022-2023
+:icons: font
+:models: models
+:experimental:
+:incremental:
+:numbered:
+:toc: macro
+:window: _blank
+:correction!:
+
+// Useful definitions
+:asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]
+:icongit: icon:git[]
+:git: http://git-scm.com/[{icongit}]
+:plantuml: https://plantuml.com/fr/[plantUML]
+:vscode: https://code.visualstudio.com/[VS Code]
+
+ifndef::env-github[:icons: font]
+// Specific to GitHub
+ifdef::env-github[]
+:correction:
+:!toc-title:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+:icongit: Git
+endif::[]
+
+// /!\ A MODIFIER !!!
+:baseURL: https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4
+
+// Tags
+image:{baseURL}/actions/workflows/blank.yml/badge.svg[Bidon] 
+image:{baseURL}/actions/workflows/build.yml/badge.svg[Build] 
+image:{baseURL}/actions/workflows/tests.yml/badge.svg[Tests] 
+image:https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg[License: MPL-2.0, link="https://opensource.org/licenses/MPL-2.0"]
+//---------------------------------------------------------------
+
+//TIP: Pensez à mettre à jour les infos dans ce fichier pour que les badges pointent sur les résultats effectifs de vos intégrations continue ou sur la bonne licence logicielle.
+
+//WARNING: Ce dépôt présente le projet à développer dans le cadre de la SAÉ 3.01 du BUT1 Informatique de l'IUT de Blagnac.
+
+//Ce fichier `README.adoc` (dont vous lisez sûrement le rendu HTML automatiquement effectué par GitHUb), fait partie du dépôt initial cloné à partir du lien GitHub classroom qui vous a été donné en cours (https://classroom.github.com/a/OUF7gxEa).
+//Vous trouverez le dépôt "template" qui a servi de base ici : https://github.com/IUT-Blagnac/sae3-01-template. En complément du cours Moodle de la SAE 3.01 (cf. <<liensUtiles>>), ce dépôt template vous permet d'accéder à des exemples d'https://github.com/IUT-Blagnac/sae3-01-template/issues[issues], de https://github.com/IUT-Blagnac/sae3-01-template/releases[releases], ou d'autres artefacts à venir.
+
+toc::[]
+
+== Equipe
+
+Projet est réalisé par::
+
+- https://github.com/Munozmu[Gabin Munoz] CDP
+- https://github.com/AurelienSP[Aurelien Sanchez-Porro]
+- https://github.com/Hugo-Vacquier[Hugo Vacquier]
+- https://github.com/andrew-phakeovilay[Andrew Phakeovilay]
+- https://github.com/quentin-beaufort[Quentin Beaufort]
+
+
+Tuteur/tutrice enseignant(e) de l'équipe:: mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
+
+== Contexte général
+
+//TIP: Cette partie de votre `README.adoc` peut être supprimée ou mise ailleurs.
+
+Lors de cette SAE, nous avons été choisi par l'entreprise "BlueGym" (groupe 1A-2) afin de développer leur site internet.
+
+En effet, l'entreprise BlueGym à reçu un forte augmentation de la demande lors du confinement.
+De plus, ils veulent augmenter leur visibilité, en passant d'un site vitrine à un site personnel.
+Une plus grande visibilité pourrait aussi les faire grandir à un niveau national.
+
+=== Dépôt initial
+
+//Ce dépôt initial a été créé pour que tous les groupes de 2ème année aient les mêmes informations de départ.
+
+//Vous y trouverez des fichiers qui peuvent être supprimés s'ils ne vous sont pas utiles :
+
+//- `.gitignore` => un fichier minimaliste des éléments à ne pas pousser en général sur vos dépôts (utiliser la commande `git add -f` pour forcer l'ajout d'un fichier Jar qui ne bougera plus, pour archive par exemple).
+//- `.github` => le répertoire qui contient des éléments de gestion de projet :
+//** `workflows` => le repertoire qui contient les actions à lancer à chaque push sur votre repo. 
+//*** `blank.yml` => un exemple bidon mais dont vous pourrez vérifier l’exécution correcte (1er tag)
+//** `ISSUE_TEMPLATE` => le repertoire qui contient quelques templates pour vos issues.
+//*** `us.yml` => Exemple de template pour les User Stories
+//*** `bug.yml` => Exemple de template pour les issues de bug report
+
+//TIP: Adaptez ces fichiers à votre projet et à votre organisation. Et inspirez-vous en pour en ajouter.
+
+Dans ce répository git, vous pourrez trouver :
+
+* La partie https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/tree/master/e-commerce[site internet] pour l'entreprise
+
+* La partie https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/tree/master/iot[IOT], contenant :
+** Une sous-partie https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/tree/master/iot/python[python], qui permet de récuperer les données de capteurs se trouvant sur un flux MQTT, et les écrit dans un fichier `.txt`
+** Une sous-partie https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/tree/master/iot/java[java], avec une application en JavaFX permettant de récuperer et afficher les données du fichier `.txt` donné par le python
+
+
+[[liensUtiles]]
+=== Liens utiles
+
+- Le https://webetud.iut-blagnac.fr/course/view.php?id=841[cours Moodle] sur la SAE
+- Le dépôt https://github.com/IUT-Blagnac/sae3-01-template[template] qui sert de base à tous les dépôts étudiants.
+- Le lien https://classroom.github.com/a/OUF7gxEa[classroom] si besoin.
+
+
+//TIP: Pensez à utiliser les salons Discord dédiés pour poser vos questions.
+
+== Réalisations 
+
+//TIP: Mettez ici toutes les informations nécessaire à l'utilisation de votre dépôt (comment on installe votre application, où sont les docs, etc.)
+Vous pourrez retrouver la documentation dans le dossier https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/tree/master/Documentation[documentation]
+
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/Documentation_Utilisateur_Web.adoc[Documentation utilisateur web finale]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/Documentation_Technique_Web.adoc[Documentation technique web]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/Tests/[Documentation de test pour le site web]
+
+Vous pourrez aussi trouver la https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/iot/python/README.adoc[documentation de la partie Python] dans le dossier https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/tree/master/iot/python[iot/python]
+
+=== Semaine 50 
+
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/Compte_Rendus/CR_BD_Semaine50.adoc[Compte rendu de la partie BD]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/Compte_Rendus/CR_WEB_Semaine50.adoc[Compte rendu de la partie Web]
+
+== Gestion de projet & Qualité
+
+//Chaque sprint (semaine) vous devrez livrer une nouvelle version de votre application (release).
+//Utilisez pour cela les fonctionnalités de GitHub pour les https://docs.github.com/en/repositories/releasing-projects-on-github[Releases].
+
+//De plus ce fichier `README.adoc` devra être à jour des informations suivantes :
+
+- Version courante : https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/releases/tag/1.5[v1.5]
+//- Lien vers la doc utilisateur
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/Documentation_Utilisateur_Web.adoc[Documentation utilisateur web finale]
+//- Lien vers les docs technique
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/Documentation_Technique_Web.adoc[Documentation technique web]
+// lien vers la doc test
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/master/Documentation/e-commerce/Tests/[Documentation de test web]
+
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/issues?q=is%3Aopen+is%3Aissue+label%3A%22User+story%22[Liste des User Stories]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/projects?query=is%3Aopen[Lien vers les projets]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/tree/master/iot/python/test[Documentation de test du python]
+//- Indicateurs de qualité du code (dette technique)
+//- ... tout autre élément que vous jugerez utiles pour démontrer la qualité de votre application
+//image schema pages
+
+
+=== Évaluations hebdomadaires
+
+NOTE: Les notes ci-dessous sont mises à jour directement par les enseignants responsables de la compétence 5.
+
+ifdef::env-github[]
+image:https://docs.google.com/spreadsheets/d/e/2PACX-1vTc3HJJ9iSI4aa2I9a567wX1AUEmgGrQsPl7tHGSAJ_Z-lzWXwYhlhcVIhh5vCJxoxHXYKjSLetP6NS/pubchart?oid=1097914647&format=image[link=https://docs.google.com/spreadsheets/d/e/2PACX-1vTc3HJJ9iSI4aa2I9a567wX1AUEmgGrQsPl7tHGSAJ_Z-lzWXwYhlhcVIhh5vCJxoxHXYKjSLetP6NS/pubchart?oid=1097914647&format=image]
+endif::[]
+
+ifndef::env-github[]
+++++
+<iframe width="786" height="430" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTc3HJJ9iSI4aa2I9a567wX1AUEmgGrQsPl7tHGSAJ_Z-lzWXwYhlhcVIhh5vCJxoxHXYKjSLetP6NS/pubchart?oid=1097914647&format=image"></iframe>
+++++
+endif::[]
+
+=Sprint 3 retour :
+Rien depuis 10 jours en doc : on attends schéma Site, doc user, doc tech. Aucuns liens dans le readme. Je n'ai pas le Backlog avec les issues US du site Ecommerce, juste le adoc ! Tâches très confuses : précier si c'est du dev, de la doc … confusions avec les US. J'ai dans codes des pages PHP en Ecommerce, je n'ai rien vu en IOT. Rien sur les tests.
+

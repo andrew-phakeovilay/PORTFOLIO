@@ -1,0 +1,24 @@
+= SAE 3 Conception et Développement d’application : Compte rendu de l'authentification client Web (semaine 50)
+:TOC:
+:TOC-title: Sommaire
+
+_Quentin Beaufort, Gabin Munoz, Andrew Phakeovilay, Aurélien Sanchez-Porro, Hugo Vacquier_ +
+_Groupe 1B_4_
+
+
+== Objectif de la semaine S50 Web
+
+Pour cette semaine, l'objectif était de permettre aux utilisateurs de créer un compte et se connecter au site par la suite pour avoir leurs informations pré-remplies au moment d’une commande, garder des produits en favori, consulter leur historique de commandes et potentiellement dans le futur, accumuler des points de fidélité.
+
+== Compte rendu et avancée du projet en Web
+
+La partie back-end n'a pas pu être terminée pour cause de problèmes serveur, les fichiers de code sont écrits mais à l'aveugle (ils n'ont pas pu être testés). +
+La partie front-end a néanmoins pu être réalisée et testée à temps sauf pour une petite partie qui nécessite d'être testée une fois connecté.
+
+== Fichiers réalisés
+
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/authentification/e-commerce/formLogin.php[Formulaire de connexion]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/authentification/e-commerce/traitLogin.php[Traitement de la connexion]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/authentification/e-commerce/formRegister.php[Formulaire d'enregistrement]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/authentification/e-commerce/traitRegister.php[Traitement de l'enregistrement]
+- https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-4/blob/authentification/e-commerce/deconnexion.php[Déconnexion]
