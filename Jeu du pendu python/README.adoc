@@ -1,0 +1,20 @@
+= Projet du pendu
+:icons: font
+:diagrams: .
+:experimental:
+:imagesdir: images
+
+// Specific to GitHub
+ifdef::env-github[]
+:toc:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:icongit: Git
+endif::[]
+
+//---------------------------------------------------------------
+
+Nous avons un projet a effectuer en fin d'année de terminale, j'ai choisi de créer un pendu sur python 3 et en utilisant tkinter
