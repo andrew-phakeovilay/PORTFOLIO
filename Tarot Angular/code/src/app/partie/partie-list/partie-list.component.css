@@ -1,0 +1,6 @@
+.scroll-names {
+  width: auto;
+  height: 300px;
+  overflow: auto;
+  scroll-behavior: smooth;
+}

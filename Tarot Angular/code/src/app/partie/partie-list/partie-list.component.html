@@ -1,0 +1,39 @@
+<div class="container mt-3">
+
+  <div class="card text-center" style="background-color: green;">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/create">Créer une partie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/history">Historique des parties</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">Historique des parties</h2>
+      <div class="scroll-names">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col-3">N° de partie</th>
+              <th score="col" colspan="4">Joueurs</th>
+              <th score="col">Nombres de manches</th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let partie of parties">
+            <tr routerLink="/history/game/{{partie.id}}">
+              <th scope="row">{{partie.id}}</th>
+              <td *ngFor="let joueur of partie.listeJoueurs">{{joueur.nom}}</td>
+              <td>{{partie.manches.length}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

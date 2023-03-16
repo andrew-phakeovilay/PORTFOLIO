@@ -1,0 +1,79 @@
+<div class="container mt-2">
+
+  <div class="card text-center" style="background-color: green;">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link active">Créer la manche</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">Création de la manche</h2>
+      <form #formulaire="ngForm" (ngSubmit)="onSubmit(formulaire)">
+        <div class="col m-1">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Selectionnez un attaquant</span>
+            </div>
+            <select required [(ngModel)]="attaquant" name="attaquant" id="attaquant" class="form-select">
+              <option *ngFor="let joueur of partie.listeJoueurs" [ngValue]="joueur.id">{{joueur.nom}}</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group mb-1">
+          <h5>Type de contrat</h5>
+          <select ngModel required name="contrat" id="contrat" class="form-select">
+            <option *ngFor="let contrat of typeContrat|keyvalue" [ngValue]="contrat.value">{{contrat.value}}</option>
+          </select>
+        </div>
+
+        <div class="form-group mb-1">
+          <h5>Nombre de bout(s)</h5>
+          <select ngModel required name="bout" id="bout" class="form-select">
+            <option *ngFor="let bout of ['Zéro','Un','Deux','Trois']">{{bout}}</option>
+          </select>
+        </div>
+
+        <div class="form-group mb-1">
+          <h5>Nombre de poignée(s)</h5>
+          <select ngModel required name="poignee" id="poignee" class="form-select">
+            <option *ngFor="let poignee of typePoignee|keyvalue" [ngValue]="poignee.value">{{poignee.value}}</option>
+          </select>
+        </div>
+
+        <div class="input-group mb-1">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Points</span>
+          </div>
+          <input ngModel required name="points" id="points" type="number" min="0" max="91" class="form-control" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
+          <div class="input-group-append">
+            <span class="input-group-text">pts</span>
+          </div>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input ngModel class="form-check-input" type="checkbox" name="bonus" id="bonus">
+          <label class="form-check-label" for="bonus">Petit au bout ?</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input ngModel required class="form-check-input" type="radio" name="result" id="gagner" value="gagner">
+          <label class="form-check-label" for="gagner">Gagné</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input ngModel class="form-check-input" type="radio" name="result" id="perdre" value="perdre">
+          <label class="form-check-label" for="pedre">Perdu</label>
+        </div>
+
+        <div class="d-flex btn-group mt-2">
+          <button class="btn btn-success" type="submit"><b>Manche suivante</b></button>
+          <a (click)="onFinish(formulaire)" class="btn btn-warning"><b>Enregistrer & Finir</b></a>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</div>

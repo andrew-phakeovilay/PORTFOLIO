@@ -1,0 +1,11 @@
+.scroll-names {
+  width: auto;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.scroll-container {
+  width: auto;
+  height: 155px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
