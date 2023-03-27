@@ -2,13 +2,13 @@
 
 Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez ses projets.
 
-**À propos de moi**
+=== À propos de moi
 
 > Étudiant en informatique. Motivé pour développer mes compétences informatiques telles que Java (8,17), Python 3, SQL, C, HTML5 & CSS3, Asciidoc, PHP, JavaScript, TypeScript, mySQL en langages de programmation.
 > Je suis capable de manipuler des logiciels tels qu'Eclipse, EduPython, Spyder,  SQLdeveloper, Repl.it, PlantUML, SceneBuilder, Visual Studio Code, VirtualBox, WinDesign, Angular, MobaxTerm.
 > Pour gérer et travaille en projet, j'utilise GitHub et ProjectLibre pour créer les planifications de projets et des diagrammes de Gantt.
 
-**Au sein de l'IUT :**
+== Au sein de l'IUT
 
 * J'ai développé une application de capteurs et un site E-commerce d'un client sous méthode SCRUM
 
@@ -22,7 +22,7 @@ Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez ses projets
 
 * J'ai crée le jeu du pendu sous Python avec une interface utilisateur
 
-**Au sein d'une entreprise :**
+== Au sein d'une entreprise
 
 * J'ai également travaillé en tant qu'opérateur de production en intérim chez Continental en job d'été.
 
@@ -30,7 +30,10 @@ En termes de centres d'intérêt, j'aime la simulation, effectuer des tests, j'a
 
 Je suis actuellement en recherche de stage en tant que développeur informatique du 17 avril au 9 juin (8 à 10 semaines) afin de confirmer ma deuxième année à IUT de Blagnac, je souhaiterais ensuite effectuer ma 3ᵉ année de BUT en alternance. En profil professionnel, je voudrais devenir développeur d'applications après un Master ou une école d'ingénieur.
 
+== Contact
+
 Je vous laisse mes contacts afin que vous pouvez me contacter
+
 * Email : andrew.p_pro@outlook.com
 * N° Téléphone : 07 69 34 50 43
 * Linkedin : https://www.linkedin.com/in/andrew-phakeovilay-731925234/
