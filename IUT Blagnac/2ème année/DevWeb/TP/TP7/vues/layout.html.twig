@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<!-- RAPPEL : le script PHP qui s'execute est indexTest.php 
+		              donc tous les chemins doivent être donnés par rapport à son emplacement
+		-->
+		<link rel="stylesheet" href="./vues/bootstrap.min.css">
+		<link rel="stylesheet" href="./vues/styles.css">
+		<title>Agence Immobilière de Blagnac</title>
+	</head>
+	<body>
+		<nav style="" class="navbar navbar-dark bg-dark shadow-sm fixed-top">
+			<div style="text-align: center; width: 100%">
+				<a class="navbar-brand" style="font-size: 30px" href="index.php">
+					{% block titre %} Agence Immobilière de Blagnac {% endblock %}
+				</a>
+			</div>
+		</nav>
+
+		<div id="sidebar" class="sidebar-offcanvas">
+			<div style="padding-top: 30px;" class="col-md-12">
+				<ul class="nav nav-pills flex-column">	
+					<li class="nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
+					<li class="nav-item"><a class="nav-link" href="ConsultPrix.php">Consultation des biens par prix</a></li>
+					<li class="nav-item"><a class="nav-link" href="ConsultType.php">Consultation des biens par type</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div style="padding-top: 30px" id="main">
+			<div style="text-align: center" class="col-md-12">
+				{% block contenu %}
+				{% endblock %}
+			</div>
+		</div>
+
+		<footer id="bottom">
+			<nav style="" class="navbar navbar-dark bg-dark shadow-sm fixed-bottom">
+				<div class="inner" style="text-align: center; width: 100%">
+					<a class="nav-item" style="font-size: 15px" href="#">Contact : site web de l'IUT...</a>
+				</div>
+			</nav>
+		</footer>
+	</body>
+</html>

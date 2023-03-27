@@ -1,0 +1,34 @@
+{% extends "layout.html.twig" %}
+
+{% block titre %} {{ parent() }} {% endblock%}
+
+
+{% block contenu %} 
+	<H1> Consulter les biens par type </H1>
+	
+	<form method='post' action='ConsultType.php'>
+		<fieldset>
+				<select name='LD_Pièces'>
+					<option value='F1' selected>Une pièce</option>
+					<option value='F2'>Deux pièces</option>
+					<option value='F3'>Trois pièces</option>
+					<option value='F4'>Quatre pièces</option>
+					<option value='F5'>Cinq pièces</option>
+					<option value='F6'>Six pièces</option>
+					<option value='F7'>Sept pièces</option>
+					<option value='FG'>Plus de 7 pièces</option>
+				</select>
+				<BR/><BR/>
+				<input type='submit' name='Afficher' value='Afficher'/>
+		</fieldset>
+	</form>
+	<BR/><BR/>
+
+	{% if biens == 'vide' %} 
+		{{ include('listeBiens.html.twig', {'biens': NULL}) }}
+	{% else %}
+	{% if biens is not null %} 
+		{{ include('listeBiens.html.twig', {'biens': biens, 'titreTab': titreTab}) }}
+	{% endif %}
+	{% endif %}
+{% endblock%}

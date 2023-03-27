@@ -1,0 +1,26 @@
+{# Si le tableau biens contient au moins une ligne alors on affiche le titre de la table HTML et chaque bien #}
+	{% if biens|length > 0 %}	
+		<H5> {{ titreTab }} </H5>	
+		<table border ="2">
+			<tr>
+				<th>Id Bien</th><th>Titre Bien</th><th>Détail Bien</th>
+				<th>Prix Bien</th><th>Id Type</th><th>Image Bien</th>
+			</tr>
+			{# on boucle sur lchaque bien transmis dans le tableau biens #}
+			{% for b in biens  %}
+				<tr>
+					<td>{{ b.idBien}}</td>
+					<td>{{ b.titreBien }}</td>
+					<td>{{ b.detailBien }}</td>
+					<td>{{ b.prixBien }}</td>
+					<td>{{ b.idType }}</td>
+					{# on affiche ici l'image du bien grâce à son nom dynamique créé dans le script php d'origine (colonne img) #}
+					<td> <img src="{{ b.img }}" alt="Image du bien" /> </td>
+				</tr>
+			{% endfor %}
+		</table>
+{# Sinon on affiche ce message #}
+	{% else %}	
+		<H5> Aucun bien n'a été trouvé !</H4>
+	{% endif %}
+	<BR/><BR/><BR/>

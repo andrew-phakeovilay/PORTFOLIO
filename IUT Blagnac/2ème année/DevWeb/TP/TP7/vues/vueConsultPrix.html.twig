@@ -1,0 +1,29 @@
+{# on hérite de la charte graphique theader, menu, contenu, footer...) définie dans layout #}
+{% extends "layout.html.twig" %}
+
+{# on réaffiche la valeur du bloc titre défini dans le layout #}
+{% block titre %} {{ parent() }} {% endblock%}
+
+
+{# on redéfinit le bloc contenu du layout #}
+{% block contenu %} 
+	<H1> Consulter les biens par tranche de prix </H1>
+	
+	{# on affiche le formulaire avec les tranches de prix #}
+	<form method='post' action="ConsultPrix.php">
+		<fieldset>				
+			<input type='radio' name='BR_choix' value='moins200' checked='checked' /> < 200 000€<BR/><BR/>			
+			<input type='radio' name='BR_choix' value='entre200et300' /> de 200 000 € à 300 000 €<BR/><BR/>						
+			<input type='radio' name='BR_choix' value='plus300' /> > 300 000 €<BR/><BR/>
+			<input type='submit' name='Afficher' value='Afficher'/>
+		</fieldset>
+	</form>
+	<BR/><BR/>
+	
+	{# 	si le tableau biens est not null, c'est à dire que le formulaire a été executée alors on inclut la sous-vue 
+		listeBiens.html.twig en lui passant les 2 paramètres recus
+	#}
+	{% if biens is not null %} 
+		{{ include('listeBiens.html.twig', {'biens': biens, 'titreTab': titreTab}) }}
+	{% endif %}
+{% endblock%}
