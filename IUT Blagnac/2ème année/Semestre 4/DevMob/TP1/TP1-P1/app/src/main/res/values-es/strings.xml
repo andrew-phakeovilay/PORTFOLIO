@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Anular</string>
+    <string name="title">Título :</string>
+    <string name="todo">Para hacer :</string>
+    <string name="title_hint">Poner el título</string>
+    <string name="todo_hint">Poner cosas por hacer</string>
+    <string name="link_with">Enlace con :</string>
+    <string name="link_name">Nombre de la persona</string>
+    <string name="comment">Comentario</string>
+    <string name="for_day">Para :</string>
+</resources>

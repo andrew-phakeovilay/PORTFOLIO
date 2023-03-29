@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Todo List</string>
+    <string name="tv_listTodo">Liste des todos existants</string>
+    <string name="listview_menu_show_text">Voir le todo</string>
+    <string name="listview_menu_modify_text">Modifier le todo</string>
+    <string name="listview_menu_remove_text">Supprimer le todo</string>
+    <string name="main_menu_ajouter_todo_text">Ajouter un todo</string>
+    <string name="libTextCancel">CANCEL</string>
+
+</resources>

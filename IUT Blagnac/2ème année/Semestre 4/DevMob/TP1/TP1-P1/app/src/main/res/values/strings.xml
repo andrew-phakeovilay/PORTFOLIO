@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Title :</string>
+    <string name="todo">To do :</string>
+    <string name="title_hint">Put the title</string>
+    <string name="todo_hint">Putting things to do</string>
+    <string name="link_with">Link with :</string>
+    <string name="link_name">Name of the person</string>
+    <string name="comment">Comment</string>
+    <string name="for_day">For :</string>
+</resources>
