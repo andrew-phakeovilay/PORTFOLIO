@@ -10,9 +10,14 @@ Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez ses projets
 
 == Au sein de l'IUT
 
-* J'ai développé une application de capteurs et un site E-commerce d'un client sous méthode SCRUM
+* J'ai développé une application de capteurs et un site E-commerce d'un client sous méthode SCRUM (GitHub, Java, Python, sqlDeveloper, MobaXterm, Eclipse, IntelliJ, PyCharm) 
++
+_Travailler en équipe, gérer les conflits, rédiger des documentations, réunion méthode SCRUM avec le client_
 
-* J'ai travaillé en tant que chef de groupe sur le développement d'une application banque sur Java en lien avec une base de données, donc je fais preuve d'autonomie, d'organisation et de gestion de conflit.
+* J'ai travaillé en tant que chef de groupe sur le développement d'une application banque sur Java en lien avec une base de données, donc je fais preuve d'autonomie, d'organisation et de gestion de conflit. (GitHub, Java 8, JavaFX, IDE Eclipse)
+
++
+_Travailler en équipe en tant que chef de projet, savoir gérer les conflits_
 
 * J'ai géré une base de données d'une entreprise où j'ai eu à améliorer l'existant et documenter
 
