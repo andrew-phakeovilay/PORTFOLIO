@@ -10,48 +10,50 @@ Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez ses projets
 
 == Au sein de l'IUT
 
-* J'ai travaillé sur un projet de refactoring sous Java (Java Swing, Eclipse IDE, IntelliJ)
+* *J'ai travaillé sur un projet de refactoring sous Java (Java Swing, Eclipse IDE, IntelliJ)*
 _Analyse de l'existant, correction des bugs, optimisation de code et organisation, ajout de patrons_
 
-* J'ai crée le jeu du Tarot sous Angular
+* *J'ai crée le jeu du Tarot sous Angular*
 +
 _Création sous Angular du Tarot en respectant les règles, bonus, total des points, points par manche_
 
-* J'ai développé une application de capteurs et un site E-commerce d'un client sous méthode SCRUM (GitHub, Java, Python, sqlDeveloper, MobaXterm, Eclipse, IntelliJ, PyCharm) 
+* *J'ai développé une application de capteurs et un site E-commerce d'un client sous méthode SCRUM (GitHub, Java, Python, sqlDeveloper, MobaXterm, Eclipse, IntelliJ, PyCharm) *
 +
 _Travailler en équipe, gérer les conflits, rédiger des documentations, réunion méthode SCRUM avec le client_
 
-* J'ai travaillé en tant que chef de groupe sur le développement d'une application banque sur Java en lien avec une base de données, donc je fais preuve d'autonomie, d'organisation et de gestion de conflit. (GitHub, Java 8, JavaFX, IDE Eclipse)
+* *J'ai travaillé en tant que chef de groupe sur le développement d'une application banque sur Java en lien avec une base de données, donc je fais preuve d'autonomie, d'organisation et de gestion de conflit. (GitHub, Java 8, JavaFX, IDE Eclipse)*
 +
 _Travailler en équipe en tant que chef de projet, savoir gérer les conflits_
 
-* J'ai géré une base de données d'une entreprise où j'ai eu à améliorer l'existant et documenter
+* *J'ai géré une base de données d'une entreprise où j'ai eu à améliorer l'existant et documenter*
 +
 _Étudier une base de données existante et l'améliorer_
 
-* J'ai crée des applications Java tels que la recherche d'étudiant d'un département informatique, le BlackJack avec JavaFX
+* *J'ai crée des applications Java tels que la recherche d'étudiant d'un département informatique, le BlackJack avec JavaFX*
 +
 _Apprendre du JavaFX et créer une interface homme machine_
-* J'ai appris à créer une machine virtuelle Ubuntu avec les fonctionnalités principales (des logiciels, personnation du terminal)
+
+* *J'ai appris à créer une machine virtuelle Ubuntu avec les fonctionnalités principales (des logiciels, personnation du terminal)*
 +
 _Installation de logiciels, personnalisation, création des utilisateurs, des groupes, script shell_
 
-* J'ai crée un site ergonomique d'entreprises GREEN IT sous HTML5 & CSS3 sur Visual Studio Code
+* *J'ai crée un site ergonomique d'entreprises GREEN IT sous HTML5 & CSS3 sur Visual Studio Code*
 _Collecte de données pertinentes, optimisation du code HTML & CSS_
 
-* J'ai crée une application permettant d'obtenir les étudiants d'un département informatique avec des contraintes
+* *J'ai crée une application permettant d'obtenir les étudiants d'un département informatique avec des contraintes*
 (Java 17, IDE BlueJ)
 _Développement des fonctions optimisées en respectant les contraintes comme tirer tous les étudiants au moins une fois_
 
-* J'ai crée le jeu du pendu sous Python avec une interface utilisateur
+* *J'ai crée le jeu du pendu sous Python avec une interface utilisateur*
 +
 _Pratique des notions python et création d'une interface_
+
 == Au sein d'une entreprise
 
-* J'ai effectué mon stage du semestre 4 en 2ème année BUT Informatique chez Mecaprotec sur la migration d'un serveur LAMP
+* *J'ai effectué mon stage du semestre 4 en 2ème année BUT Informatique chez Mecaprotec sur la migration d'un serveur LAMP*
 +
 _Migration d'un serveur existant afin d'optimiser la production, communication interpersonnelle, travail d'équipe, maîtrise des applications d'entreprises_
-* J'ai également travaillé en tant qu'opérateur de production en intérim chez Continental en job d'été.
+* *J'ai également travaillé en tant qu'opérateur de production en intérim chez Continental en job d'été*
 +
 _Assemblage de pièces et maintenance des machines, être automne et savoir travailler en
 équipe_
