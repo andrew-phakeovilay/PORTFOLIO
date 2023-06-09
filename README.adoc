@@ -10,6 +10,13 @@ Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez ses projets
 
 == Au sein de l'IUT
 
+* J'ai travaillé sur un projet de refactoring sous Java (Java Swing, Eclipse IDE, IntelliJ)
+_Analyse de l'existant, correction des bugs, optimisation de code et organisation, ajout de patrons_
+
+* J'ai crée le jeu du Tarot sous Angular
++
+_Création sous Angular du Tarot en respectant les règles, bonus, total des points, points par manche_
+
 * J'ai développé une application de capteurs et un site E-commerce d'un client sous méthode SCRUM (GitHub, Java, Python, sqlDeveloper, MobaXterm, Eclipse, IntelliJ, PyCharm) 
 +
 _Travailler en équipe, gérer les conflits, rédiger des documentations, réunion méthode SCRUM avec le client_
