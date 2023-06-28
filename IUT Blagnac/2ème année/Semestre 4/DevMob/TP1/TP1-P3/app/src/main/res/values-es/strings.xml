@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_listTodo">Lista de tareas existentes</string>
+    <string name="listview_menu_show_text">Ver la tarea</string>
+    <string name="listview_menu_modify_text">Editar la tarea</string>
+    <string name="listview_menu_remove_text">Borrar la tarea</string>
+    <string name="main_menu_ajouter_todo_text">Añadir una tarea</string>
+    <string name="libTextCancel">Cancelar</string>
+    <string name="app_name">Todo list</string>
+    <string name="main_menu_header">Elegir</string>
+    <string name="menu_show">Ver</string>
+    <string name="menu_edit">Editar</string>
+    <string name="alert_title">Borrar realmente ?</string>
+    <string name="alert_content">¿Desea abandonar la actividad actual?</string>
+</resources>

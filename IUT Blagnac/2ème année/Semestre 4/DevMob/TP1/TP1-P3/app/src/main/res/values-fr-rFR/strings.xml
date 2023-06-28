@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_listTodo">Liste des todos existants</string>
+    <string name="listview_menu_show_text">Voir le todo</string>
+    <string name="listview_menu_modify_text">Modifier le todo</string>
+    <string name="listview_menu_remove_text">Supprimer le todo</string>
+    <string name="main_menu_ajouter_todo_text">Ajouter un todo</string>
+    <string name="libTextCancel">Annuler</string>
+    <string name="app_name">Todo list</string>
+    <string name="main_menu_header">Choisir</string>
+    <string name="menu_show">Voir</string>
+    <string name="menu_edit">Modifier</string>
+    <string name="alert_title">Supprimer vraiment ?</string>
+    <string name="alert_content">Voulez vous quitter l\'activité en cours ?</string>
+</resources>

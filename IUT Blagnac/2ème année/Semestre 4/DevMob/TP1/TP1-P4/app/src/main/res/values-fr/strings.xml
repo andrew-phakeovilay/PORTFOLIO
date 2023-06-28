@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Todo List</string>
+    <string name="tv_listTodo">Liste des todos existants</string>
+    <string name="listview_menu_show_text">Voir le todo</string>
+    <string name="listview_menu_modify_text">Modifier le todo</string>
+    <string name="listview_menu_remove_text">Supprimer le todo</string>
+    <string name="main_menu_ajouter_todo_text">Ajouter un todo</string>
+    <string name="libTextCancel">Annuler</string>
+    <string name="tv_titre_text">Titre :</string>
+    <string name="tv_note_text">"Todo : "</string>
+    <string name="tv_correspondant_text">En lien avec :</string>
+    <string name="tv_pour_text">Pour le :</string>
+    <string name="aff_but_quit_text">Quitter</string>
+    <string name="ok">OK</string>
+    <string name="title">Titre :</string>
+    <string name="todo">A faire :</string>
+    <string name="title_hint">Mettre le titre</string>
+    <string name="todo_hint">Mettre les choses à faire</string>
+    <string name="link_name">Nom de la personne</string>
+    <string name="comment">Commentaire</string>
+    <string name="for_day">Pour :</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="tv_listTodo">List of existing todos</string>
+    <string name="listview_menu_show_text">See the todo</string>
+    <string name="listview_menu_modify_text">Edit the todo</string>
+    <string name="listview_menu_remove_text">Delete the todo</string>
+    <string name="main_menu_ajouter_todo_text">Add a todo</string>
+    <string name="libTextCancel">Cancel</string>
+    <string name="app_name">Todo list</string>
+    <string name="main_menu_header">Choose</string>
+    <string name="menu_show">See</string>
+    <string name="menu_edit">Edit</string>
+    <string name="alert_title">Confirm delete ?</string>
+    <string name="alert_content">Do you want to leave the current activity?</string>
+</resources>

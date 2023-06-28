@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_menu_header">Choose</string>
+    <string name="menu_show">See</string>
+    <string name="menu_edit">Edit</string>
+    <string name="alert_title">Confirm delete ?</string>
+    <string name="alert_content">Do you want to leave the current activity?</string>
+</resources>
