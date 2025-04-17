@@ -1,0 +1,73 @@
+= SAÉ TOAC Triathlon : DOCUMENTATION TECHNIQUE
+:incremental:
+:numbered:
+:TOC:
+:TOC-title: Sommaire
+
+== Introduction
+
+=== Contexte
+
+Le club de triathlon toulousain souhaiterait un changement majeur de leur site https://half.toac-triathlon.com/ afin de faciliter la navigation sur le site pour les prochaines éditions de l'évenement ou explorer les anciennes éditions.
+
+L’objectif de cette documentation est de permettre aux prochains développeurs de configurer ou de se répérer sur le serveur Wordpress.
+
+== Pré-requis
+
+- Un serveur avec la configuration Apache, PHP, MySQL et phpMyAdmin
+- Avoir une clé ssh rsa afin d'avoir accès au serveur s’il est restraint
+- être formé au développement web dans un serveur
+- Avoir la version PHP > 7.4 (la version sur le site existant) et MySQL > 5.6 pour faire fonctionner Wordpress
+
+
+== Architecture et arborescence prévisionnelles
+
+Nous avons à modifier les pages webs liés à wordpress. Puisque le client veut une page où l'on peut scroller, une nouvelle architecture a été mis en place en accord avec lui :
+
+https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/doc/maquette_v3-latest.pdf[La maquette]
+
+// image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/doc/Maquette%20Toac.pdf[]
+
+Mais nous devons respecter l’arborescence :
+
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/arborescence3.png[arborescence]
+
+== Installation de Wordpress
+
+. Télécharger le .zip sur https://fr.wordpress.org/download/
+. Dézippper le .zip dans votre pc local
+. Aller sur un client FTP pour se connecter sur le serveur (Putty, Mobaxterm, FileZilla, WinSCP)
+. Se diriger vers le repértoire /var/www/html/
+. Avec le client FTP, transférer le repertoire extrait /wordpress dans le serveur au repertoire
+. Ensuite il faudra créer une base de données pour Wordpress, allez sur le dashboard de phpMyAdmin soit @IPServeur/phpmyadmin
+
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/createdb.png[createdb]
+. Configurer le fichier wp-config-sample.php avec le nom de votre base de données, l’utilisateur et le mot de passe
+
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/wpconfig.png[wpconfig]
+. Renommer le fichier en wp-config.php
+. Accéder maintenant à l'adresse @IPServeur/wordpress
+. Remplir le formulaire
+
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/wpform.png[wpform]
+
+=== Ajout d'extension Elementor
+
+L'extension Elementor permet de construire le site plus facilement.
+
+. Connecté sur l'adresse @IPServeur/wordpress/wp-admin
+
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/wpadmin.png[wpadmin]
+. Au menu à gauche, "Extension" puis dans la page, le bouton "Ajouter"
+. Chercher Elementor puis "installer maintenant"
+
+=== Installer un thème
+
+Pour installer un thème, il y a 3 manières possibles
+
+.. Sur Wordpress > Apparence > Thèmes > Ajouter > Recherche du nom du thème puis télécharger et activer
+.. Télécharger le thème en local https://wpastra.com/
+- Soit dans Wordpress > Apparence > Thèmes > Ajouter > Téléverser un thème puis insérer le .zip
+- Avec un client FTP dans le serveur /var/www/html/wordpress/wp-content/themes/ transférer le répertoire extrait du .zip +
+
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/wptheme.png[wptheme]

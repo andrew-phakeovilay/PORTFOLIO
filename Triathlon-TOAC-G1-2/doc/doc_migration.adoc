@@ -1,0 +1,98 @@
+= SAÉ TOAC Triathlon : DOCUMENTATION MIGRATION
+:incremental:
+:numbered:
+:TOC:
+:TOC-title: Sommaire
+
+== Contexte
+
+Le club de triathlon toulousain souhaiterait un changement majeur de leur site https://half.toac-triathlon.com/ afin de me faciliter la navigation sur le site pour les prochaines éditions ou explorer les anciennes éditions.
+
+L’objectif de cette documentation permet d'assurer une migration si le client souhaiterait choisir notre projet
+
+== Guide de migration
+
+- Installez l'extension Duplicator dans WordPress dans le serveur d'exportation et le serveur d'importation, puis activez l'extension.
+
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/duplicator.png[duplicator]
+
+=== Exportation
+
+. Depuis le serveur d'exportation aller sur duplicator depuis le menu à gauche
+. Créer un paquet, puis mettez un nom et cliquez "suivant"
++
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/exportwp.png[exportwp]
+
+. Attendez puis cliquez création puis attendez encore puis téléchargez les 2 fichiers
++
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/dlboth.png[dlboth]
+
+=== Importation
+
+. Créer une base de données pour l'importation dans votre SGBD
++
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/phpmyadminimport.png[phpmyadminimport]
+
+. Accèdez aux fichiers du serveur d'importation puis glissez les 2 fichiers installés précédemment, vous pouvez choisir le répétoire de destination tant que vous êtes dans le répértoire du site.
++
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/importationfichiers.png[importationfichiers]
+
+. Sur un navigateur, aller sur l'url [monsite.fr]/[repertoire]/installer.php. vous remplacer monsite.fr par le votre et mettez le bon répertoire ou laissez vide s'il n'y a pas de répertoire
+
+. Remplissez dans le formulaire affiché : la base de données que nous avons crée en 1. et les identifiants de la SGBD puis validez
++
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/duplicatorform.png[duplicatorform]
+
+. Lisez bien les avertissements puis cochez, suivant, OK puis attendez (NE QUITTEZ PAS LA FENETRE)
++
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/duplicatorformnext.png[duplicatorformnext]
+
+. Denière étape, connectez-vous sur WordPress par le bouton
++
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/duplicatorfinalstep.png[duplicatorfinalstep]
+
+. Et l'importation est finie !
++
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/duplicatorsuccess.png[duplicatorsuccess]
+
+== Modifications
+
+=== Changement de permaliens
+
+. Dans le tableau de bord > Réglages > Permaliens
+. Passer de Simple à Titre de la publication
+
+=== Importer la police Helvetica regular
+
+La police importée ne fonctionne pas. Il faut reimporter. +
+À l'aide de l'extension Use Any Font qui permet d'importer des polices, accessible par le tableau de bord puis Upload Font +
+Mettez le nom et importez le fichier de police puis Upload +
+
+image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/importfont.png[importfont]
+
+=== Changement de liens brutes
+
+- Dans le tableau de bord > Apparence > Personnaliser
+
+* Menu en haut à gauche
+** Swimrun -> inscription 2024
+** Aquathlon -> inscription 2024
+** S'inscrire -> inscription 2024
+** Pratique
+*** Accès -> nouvelle ancre lien#acces-parking
+*** Hébergement -> nouvelle ancre lien#herbergement
+*** Le village -> nouvelle ancre lien#village
+*** éco-responsabilité -> nouvelle ancre lien#eco
+* Menu mobile
+** S'inscrire -> inscription 2024
+** Pratique
+*** Accès -> nouvelle ancre lien#acces-parking
+*** Hébergement -> nouvelle ancre lien#herbergement
+*** Le village -> nouvelle ancre lien#village
+*** éco-responsabilité -> nouvelle ancre lien#eco
+* Page épreuves
+** S'inscrire Aquathlon et Swimrun -> inscription 2024
+* Modèles
+** Triathlon S > Règlement nouveau lien
+** Triathlon M > Règlement nouveau lien
+** Triathlon L > Règlement nouveau lien

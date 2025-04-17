@@ -1,0 +1,75 @@
+= SAÉ TOAC Triathlon : Recueil des besoins
+:incremental:
+:numbered:
+:TOC:
+:TOC-title: Sommaire
+
+== Introduction
+
+=== Contexte
+
+Le club de triathlon toulousain souhaiterait un changement majeur de leur site https://half.toac-triathlon.com/ afin d'y faciliter la navigation pour les prochaines éditions ainsi que pour les anciennes.
+
+Ce document permet de récapituler les besoins du client et de les centraliser.
+
+== Besoins
+
+Ici l'idée client est une restructuration du site en plusieurs étapes:
+
+- Nouvelle structure du site (arborescence)
+- Nouveau thème du site
+- Guide de maintenance et sauvegarde du site
+- Ajout du feed instagram au site
+- Refonte des statistiques des courses
+
+
+== Nouvelle structure du site
+
+Ici l'idée de notre client est de rendre les informations importantes accessibles de manière cohérente pour les utilisateurs.
+
+Solution :
+
+- Nous avons donc pensé à regrouper, dans une page scroll intégrant le nouveau thème, les informations importantes par section.
+- Les sections seraient ordonnées par importance et permetraient une redirection vers la page dédiée à l'information.
+
+-> https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/doc/Maquette%20TOAC.pdf[La maquette]
+
+// image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/doc/Maquette%20TOAC.pdf[]
+
+
+-> https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/Arbo.png[l'arborescence]
+
+// image::https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/images/Arbo.png[arborescence]
+
+
+== Nouveau thème du site
+
+Le besoin exprimé niveau design est un thème parallax intégré à une page scroll comme home page.
+
+Solution :
+
+- Thème: Astra
+- Template: Outdoor Adventure
+
+
+== Guide de maintenance et modifications du site
+
+Une des priorités de cette refonte est d'avoir un guide permettant la maintenance du site après notre passage.
+
+Solution :
+
+https://github.com/Anthonycbrl/Triathlon-TOAC-G1/blob/main/doc/doc_utilisateur.adoc[guide de sauvegarde]
+
+
+=== Ajout du feed instagram au site
+
+Le client à également à coeur de recentrer son contenu et le partage d'information sur leur instagram.
+Nous devions intégrer leur feed instagram à la home page.
+
+Solution :
+
+Nous avons ajouté le feed instagram comme source externe dans un iframe via le lien du compte
+
+
+=== Refonte des statistiques des courses
+

@@ -1,0 +1,79 @@
+ifndef::imagesdir[:imagesdir: ../images]
+= Guide d'utilisation de l'administration de Wordpress
+
+
+
+== Guide d'utilisation d'Elementor
+
+=== Guide pour créer un modèle
+TIP: Les modèles sont des morceaux d'une page qui sont utilisés sur la page `epreuve_triathlon`. Les modèles sont utilisés pour définir le contenu de l'élément `onglets`.
+
+. Aller sur la catégorie `Modèles`, `Modèles enregistrés` sur le dashboard admin de wordpress
+. Tout en haut de la page, à côté de `Modèles enregistrés`, cliquer sur `Ajouter`
+. Sélectionner le type `Conteneur`
+. Mettre un nom de la forme `modele_triathlon_**nom du format voulu**` puis valider
+. Une fois sur la page de création, ajouter un premier conteneur.
+. Vous pouvez maintenant mettre dans le conteneur tout le contenu voulu.
+
+== Guide de Sauvegarde du site
+
+=== Étape 1 : Télecharger les fichiers du site
+
+. Connectez-vous au cPanel en utilisant le lien suivant : https://chat.o2switch.net:2083/
+
+. Accédez au gestionnaire de fichiers.
++
+image::image.png[]
+
+. Remontez d'un niveau dans la structure des fichiers.
++
+image::remonter.png[]
+
+. Sélectionnez le site que vous souhaitez sauvegarder, dans notre cas, "half".
+
+. Utilisez la fonctionnalité de compression en format ZIP pour compresser les fichiers du site.
++
+image::comp.png[]
+
+. Sélectionnez le fichier ZIP résultant, puis utilisez la fonction de téléchargement pour le sauvegarder sur votre ordinateur.
++
+image::dl.png[]
+
+=== Étape 2 : Exportation de la base de données
+
+. Retournez à la page d'accueil de cPanel.
+
+. Cliquez sur "phpMyAdmin".
++
+image::selectphpmyadmin.png[]
+
+. Sélectionnez la base de données "dumin7998_half" dans le volet de gauche.
++
+image::php.png[]
+
+. Cliquez sur l'onglet "Exporter".
++
+image::exporter.png[]
+
+. Cochez l'option "Personnalisée".
+
+. Dans la section "Sortie", sélectionnez l'option "Zippé" pour compresser la sauvegarde.
+
+. Cliquez sur le bouton "Exporter" pour démarrer le processus d'exportation de la base de données.
+
+== Guide pour se renseigner sur les données de trafic du site web
+
+Avec google analytics, on peut acceder aux données du trafic sur le site du TOAC. +
+Voici comment faire.
+
+. Connectez vous en tant que Admin sur le site wordpress et cliquez sur le plugin google "Site Kit"
++
+image::toac1.png[]
+ 
+. Cliquez sur le liens Analytics
++
+image::toac2.png[]
+
+. Le lien emmène sur les données des trafics.
++
+image::toac3.png[]
