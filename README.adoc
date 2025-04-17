@@ -18,12 +18,10 @@ Collaboration dans une grande équipe_
 +
 GitHub, WampServer, o2switch, WordPress
 
-
-
 * *J'ai travaillé sur un projet de refactoring sous Java (Java Swing, Eclipse IDE, IntelliJ)*
 _Analyse de l'existant, correction des bugs, optimisation de code et organisation, ajout de patrons_
 
-* link:Tarot\Doc_Conception_Andrew_Phakeovilay_1B.pdf[*J'ai crée le jeu du Tarot sous Angular*]
+* link:pass:[Tarot Angular/Doc_Conception_Andrew_Phakeovilay_1B.pdf][*J'ai crée le jeu du Tarot sous Angular*]
 +
 _Création sous Angular du Tarot en respectant les règles, bonus, total des points, points par manche_
 
