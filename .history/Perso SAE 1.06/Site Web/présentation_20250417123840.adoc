@@ -1,0 +1,36 @@
+= Projet Site Web SAE 1.06
+:icons: font
+:diagrams: .
+:experimental:
+:imagesdir: images
+
+// Specific to GitHub
+ifdef::env-github[]
+:toc:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:icongit: Git
+endif::[]
+
+//---------------------------------------------------------------
+
+L'objectif du projet était de créer un site web ergonomique avec HTML5/CSS3 pour 2 entreprises GREEN IT en groupe de 2.
+Nous avons utilisé Visual Studio Code et effectué des recherches sur les entreprises.
+
+image::../captures/accueil.png[accueil]
+image::../captures/nereus1.png[nereuspartie1]
+image::../captures/nereus2.png[nereuspartie2]
+image::../captures/nereus3.png[nereuspartie3]
+image::../captures/nereus4.png[nereuspartie4]
+image::../captures/nereus5.png[nereuspartie5]
+image::../captures/neocean1.png[neoceanpartie1]
+image::../captures/neocean2.png[neoceanpartie2]
+image::../captures/neocean3.png[neoceanpartie3]
+image::../captures/neocean4.png[neoceanpartie4]
+image::../captures/neocean5.png[neoceanpartie5]
+image::../captures/choix1.png[choixstrategie1]
+image::../captures/choix2.png[choixstrategie2]
+image::../captures/bibliographie.png[bibliographie]

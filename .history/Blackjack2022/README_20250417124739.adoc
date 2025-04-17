@@ -17,13 +17,11 @@ endif::[]
 
 //---------------------------------------------------------------
 
-Nous avons un projet a effectuer en fin d'année de terminale, j'ai choisi de créer un pendu sur python 3 et en utilisant tkinter
+J'ai eu le projet de faire le blackjack sous Java avec JavaFX et SceneBuilder.
 
-L'objectif du jeu du pendu est de trouver le mot sans dépasser les essais.
+Afin de pouvoir exécuter le fichier jar, il faut changer la version de java, j'ai inséré un fichier de commande permettant de le changer,
 
-J'ai créer des boutons cliquables plusieurs fois, chaque mauvaise lettre créer le pendu tandis que chaque lettre correcte, le mot se complète.
-
-image::../captures/jeu1.png[début]
+image::../captures/commandes.png[commandes]
 
 image::../captures/jeu2.png[perdu]
 

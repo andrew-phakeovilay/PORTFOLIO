@@ -1,0 +1,31 @@
+= Projet du pendu
+:icons: font
+:diagrams: .
+:experimental:
+:imagesdir: images
+
+// Specific to GitHub
+ifdef::env-github[]
+:toc:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:icongit: Git
+endif::[]
+
+//---------------------------------------------------------------
+
+J'ai eu le projet de faire le blackjack sous Java avec JavaFX et SceneBuilder.
+
+Afin de pouvoir exécuter le fichier jar, il faut changer la version de java, j'ai inséré un fichier de commande permettant de le changer,
+
+image::../captures/commandes.png[commandes]
+
+image::../captures/accueil.png[accueil]
+
+J'ai inséré les règles de devoir avoir de l'argent et être au moins 1 joueur.
+
+image::../captures/monnaieinvalide.png[monnaie invalide]
+image::../captures/nbjoueursinvalide.png[nombre de joueurs invalides]

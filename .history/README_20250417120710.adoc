@@ -12,18 +12,16 @@ Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez ses projets
 
 * *J'ai développé un site triathlon sous WordPress pour le TOAC Triathlon*
 +
-_Gestion de conflits
-Rédactions documentaires
-Collaboration dans une grande équipe_
+_Migration d’un site web sous PHP à JavaScript,
+Refactorisation et optimisation de code,
+Amélioration de la base de données_
 +
-GitHub, WampServer, o2switch, WordPress
-
-
+MariaDB, PHP, JavaScript, HTML, CSS, MySQL Workbench, Visual Studio Code
 
 * *J'ai travaillé sur un projet de refactoring sous Java (Java Swing, Eclipse IDE, IntelliJ)*
 _Analyse de l'existant, correction des bugs, optimisation de code et organisation, ajout de patrons_
 
-* link:Tarot\Doc_Conception_Andrew_Phakeovilay_1B.pdf[*J'ai crée le jeu du Tarot sous Angular*]
+* *J'ai crée le jeu du Tarot sous Angular*
 +
 _Création sous Angular du Tarot en respectant les règles, bonus, total des points, points par manche_
 

@@ -1,0 +1,54 @@
+= Projet du pendu
+:icons: font
+:diagrams: .
+:experimental:
+:imagesdir: images
+
+// Specific to GitHub
+ifdef::env-github[]
+:toc:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:icongit: Git
+endif::[]
+
+//---------------------------------------------------------------
+
+J'ai eu le projet de faire le blackjack sous Java avec JavaFX et SceneBuilder.
+
+Afin de pouvoir exécuter le fichier jar, il faut changer la version de java, j'ai inséré un fichier de commande permettant de le changer,
+
+image::../captures/commandes.png[commandes]
+
+image::../captures/accueil.png[accueil]
+
+J'ai inséré les règles de devoir avoir de l'argent et être au moins 1 joueur.
+
+image::../captures/monnaieinvalide.png[monnaie invalide]
+image::../captures/nbjoueursinvalides.png[nombre de joueurs invalides]
+
+Lors du lancement du jeu, une aide est disponible pour expliquer les règles du jeu.
+
+image::../captures/aide.png[aide]
+
+Lors de la mise, nous devons miser une valeur valide en fonction de la monnaie que nous avons.
+
+image::../captures/miser.png[miser]
+image::../captures/miseinvalide.png[mise invalide]
+
+Ensuite, nous avons le choix de tirer une carte ou rester en fonction des cartes que nous avons.
+
+image::../captures/choix.png[rester ou miser]
+
+Lors d'une défaite ou d'une victoire, recommencer le jeu est joué avec la nouvelle monnaie
+
+image::../captures/perdu.png[perdu]
+image::../captures/gagner.png[gagner]
+image::../captures/monnaiegagne.png[monnaie gagné]
+
+Le multijoueur fonctionne par tour, chacun mise puis choisis entre rester ou tirer.
+
+image::../captures/multijoueur.png[multijoueurs]

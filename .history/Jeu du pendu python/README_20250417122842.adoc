@@ -18,13 +18,15 @@ endif::[]
 //---------------------------------------------------------------
 
 Nous avons un projet a effectuer en fin d'année de terminale, j'ai choisi de créer un pendu sur python 3 et en utilisant tkinter
-
++
 L'objectif du jeu du pendu est de trouver le mot sans dépasser les essais.
-
++
 J'ai créer des boutons cliquables plusieurs fois, chaque mauvaise lettre créer le pendu tandis que chaque lettre correcte, le mot se complète.
 
-image::../captures/jeu1.png[début]
+image::../Captures/jeu1.png[début]
 
-image::../captures/jeu2.png[perdu]
+image::Captures/
 
-image::../captures/jeu3.png[gagner]
+image::../Captures/jeu2.png[perdu]
+
+image::../Captures/jeu3.png[gagner]
