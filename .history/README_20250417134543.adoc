@@ -42,7 +42,7 @@ _Travailler en équipe en tant que chef de projet, savoir gérer les conflits_
 +
 _Étudier une base de données existante et l'améliorer_
 
-* link:pass:[Blackjack2022/README.adoc][*J'ai crée une application Java, le BlackJack avec JavaFX*]
+* *J'ai crée une application Java, le BlackJack avec JavaFX*
 +
 _Apprendre du JavaFX et créer une interface homme machine_
 

@@ -42,7 +42,7 @@ _Travailler en équipe en tant que chef de projet, savoir gérer les conflits_
 +
 _Étudier une base de données existante et l'améliorer_
 
-* link:pass:[Blackjack2022/README.adoc][*J'ai crée une application Java, le BlackJack avec JavaFX*]
+* *J'ai crée des applications Java tels que la recherche d'étudiant d'un département informatique, le BlackJack avec JavaFX*
 +
 _Apprendre du JavaFX et créer une interface homme machine_
 
@@ -58,13 +58,13 @@ _Collecte de données pertinentes, optimisation du code HTML & CSS_
 (Java 17, IDE BlueJ)
 _Développement des fonctions optimisées en respectant les contraintes comme tirer tous les étudiants au moins une fois_
 
-* link:pass:[Jeu du pendu python/README.adoc][*J'ai crée le jeu du pendu sous Python avec une interface utilisateur*]
+* *J'ai crée le jeu du pendu sous Python avec une interface utilisateur*
 +
 _Pratique des notions python et création d'une interface_
 
 == Au sein d'une entreprise
 
-* *J'ai effectué mon stage du semestre 6 en 3ème année BUT Informatique chez Soplami en tant que stagiaire développeur pendant 4 mois*
+* *J'ai effectué mon stage du semestre 6 en 3ème année BUT Informatique chez Soplami en tant que stagiare développeur*
 +
 _Migration d’un site web sous PHP à JavaScript, 
 Refactorisation et optimisation de code, 
@@ -72,7 +72,7 @@ Amélioration de la base de données_
 +
 MariaDB, PHP, JavaScript, HTML, CSS, MySQL Workbench, Visual Studio Code
 
-* *J'ai effectué mon stage du semestre 4 en 2ème année BUT Informatique chez Mecaprotec sur la migration d'un serveur LAMP pendant 2 mois*
+* *J'ai effectué mon stage du semestre 4 en 2ème année BUT Informatique chez Mecaprotec sur la migration d'un serveur LAMP*
 +
 _Migration d’un serveur LAMP, 
 Correction des tickets informatiques, 
@@ -85,9 +85,9 @@ PHP, mySQL, Visual Studio Code, Putty
 _Assemblage de pièces et maintenance des machines, être automne et savoir travailler en
 équipe_
 
-En termes de centres d'intérêt, j'aime le montage, le processus de montage des pièces d'un équipement comme les ordinateurs, le montage vidéo, j'aime aussi le design, l'esthétique des interfaces et j'aime la technologie auquel je me tiens au courant tous les jours.
+En termes de centres d'intérêt, j'aime la simulation, effectuer des tests, j'aime aussi le design, l'esthétique des interfaces et j'aime la technologie auquel je me tiens au courant tous les jours.
 
-Je suis actuellement en recherche d'alternance d'une durée de 2 ans en tant que développeur web ou application pour poursuivre mes études en Mastère à Ynov.
+Je suis actuellement en recherche d'alternance en tant que développeur informatique pour ma 3ème BUT Informatique. En profil professionnel, je voudrais devenir développeur d'applications après un Master.
 
 == Contact
 
