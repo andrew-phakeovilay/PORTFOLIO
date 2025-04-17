@@ -4,11 +4,19 @@ Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez ses projets
 
 === À propos de moi
 
-> Étudiant en informatique. Motivé pour développer mes compétences informatiques telles que Java (8,17), Python 3, SQL, C, HTML5 & CSS3, Asciidoc, PHP, JavaScript, TypeScript, mySQL en langages de programmation.
+> Diplomé d'un BUT en informatique. Motivé pour développer mes compétences informatiques telles que Java (8,17), Python 3, SQL, C, HTML5 & CSS3, Asciidoc, PHP, JavaScript, TypeScript, mySQL en langages de programmation.
 > Je suis capable de manipuler des logiciels tels qu'Eclipse, EduPython, Spyder,  SQLdeveloper, Repl.it, PlantUML, SceneBuilder, Visual Studio Code, VirtualBox, WinDesign, Angular, MobaxTerm.
 > Pour gérer et travaille en projet, j'utilise GitHub et ProjectLibre pour créer les planifications de projets et des diagrammes de Gantt.
 
 == Au sein de l'IUT
+
+* *J'ai développé un site triathlon sous WordPress pour le TOAC Triathlon*
++
+_Migration d’un site web sous PHP à JavaScript,
+Refactorisation et optimisation de code,
+Amélioration de la base de données_
++
+MariaDB, PHP, JavaScript, HTML, CSS, MySQL Workbench, Visual Studio Code
 
 * *J'ai travaillé sur un projet de refactoring sous Java (Java Swing, Eclipse IDE, IntelliJ)*
 _Analyse de l'existant, correction des bugs, optimisation de code et organisation, ajout de patrons_
@@ -50,9 +58,22 @@ _Pratique des notions python et création d'une interface_
 
 == Au sein d'une entreprise
 
+* *J'ai effectué mon stage du semestre 6 en 3ème année BUT Informatique chez Soplami en tant que stagiare développeur*
++
+_Migration d’un site web sous PHP à JavaScript, 
+Refactorisation et optimisation de code, 
+Amélioration de la base de données_
++
+MariaDB, PHP, JavaScript, HTML, CSS, MySQL Workbench, Visual Studio Code
+
 * *J'ai effectué mon stage du semestre 4 en 2ème année BUT Informatique chez Mecaprotec sur la migration d'un serveur LAMP*
 +
-_Migration d'un serveur existant afin d'optimiser la production, communication interpersonnelle, travail d'équipe, maîtrise des applications d'entreprises_
+_Migration d’un serveur LAMP, 
+Correction des tickets informatiques, 
+Rédactions documentaires_
++
+PHP, mySQL, Visual Studio Code, Putty
+
 * *J'ai également travaillé en tant qu'opérateur de production en intérim chez Continental en job d'été*
 +
 _Assemblage de pièces et maintenance des machines, être automne et savoir travailler en
