@@ -10,11 +10,11 @@ Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez ses projets
 
 == Au sein de l'IUT
 
-* *J'ai développé un site triathlon sous WordPress pour le TOAC Triathlon*
+* link:pass:[Triathlon-TOAC-G1-2/README.md][*J'ai développé un site triathlon sous WordPress pour le TOAC Triathlon*]
 +
-_Gestion de conflits
-Rédactions documentaires
-Collaboration dans une grande équipe_
+_Gestion de conflits, 
+rédactions documentaires, 
+collaboration dans une grande équipe_
 +
 (GitHub, WampServer, o2switch, WordPress)
 
@@ -67,16 +67,16 @@ _Pratique des notions python et création d'une interface_
 * *J'ai effectué mon stage du semestre 6 en 3ème année BUT Informatique chez Soplami en tant que stagiaire développeur pendant 4 mois*
 +
 _Migration d’un site web sous PHP à JavaScript, 
-Refactorisation et optimisation de code, 
-Amélioration de la base de données_
+refactorisation et optimisation de code, 
+amélioration de la base de données_
 +
 MariaDB, PHP, JavaScript, HTML, CSS, MySQL Workbench, Visual Studio Code
 
 * *J'ai effectué mon stage du semestre 4 en 2ème année BUT Informatique chez Mecaprotec sur la migration d'un serveur LAMP pendant 2 mois*
 +
 _Migration d’un serveur LAMP, 
-Correction des tickets informatiques, 
-Rédactions documentaires_
+correction des tickets informatiques, 
+rédactions documentaires_
 +
 PHP, mySQL, Visual Studio Code, Putty
 
