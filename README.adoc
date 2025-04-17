@@ -19,6 +19,7 @@ collaboration dans une grande équipe_
 (GitHub, WampServer, o2switch, WordPress)
 
 * *J'ai travaillé sur un projet de refactoring sous Java (Java Swing, Eclipse IDE, IntelliJ)*
++
 _Analyse de l'existant, correction des bugs, optimisation de code et organisation, ajout de patrons_
 
 * link:pass:[Tarot Angular/Doc_Conception_Andrew_Phakeovilay_1B.pdf][*J'ai crée le jeu du Tarot sous Angular*]
@@ -46,7 +47,7 @@ _Étudier une base de données existante et l'améliorer_
 +
 _Apprendre du JavaFX et créer une interface homme machine_
 
-* *J'ai appris à créer une machine virtuelle Ubuntu avec les fonctionnalités principales (des logiciels, personnation du terminal)*
+* *J'ai appris à créer une machine virtuelle Ubuntu avec les fonctionnalités principales (des logiciels, personnalisation du terminal)*
 +
 _Installation de logiciels, personnalisation, création des utilisateurs, des groupes, script shell_
 
@@ -70,7 +71,7 @@ _Migration d’un site web sous PHP à JavaScript,
 refactorisation et optimisation de code, 
 amélioration de la base de données_
 +
-MariaDB, PHP, JavaScript, HTML, CSS, MySQL Workbench, Visual Studio Code
+(MariaDB, PHP, JavaScript, HTML, CSS, MySQL Workbench, Visual Studio Code)
 
 * *J'ai effectué mon stage du semestre 4 en 2ème année BUT Informatique chez Mecaprotec sur la migration d'un serveur LAMP pendant 2 mois*
 +
@@ -78,7 +79,7 @@ _Migration d’un serveur LAMP,
 correction des tickets informatiques, 
 rédactions documentaires_
 +
-PHP, mySQL, Visual Studio Code, Putty
+(PHP, mySQL, Visual Studio Code, Putty)
 
 * *J'ai également travaillé en tant qu'opérateur de production en intérim chez Continental en job d'été*
 +
