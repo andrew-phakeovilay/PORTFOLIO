@@ -10,6 +10,17 @@ Bienvenue dans le portfolio de Andrew Phakeovilay où vous trouverez ses projets
 
 == Au sein de l'IUT
 
+* link:pass:[andrew-projet-react/README.md][*J'ai développé un site de comparison de prix de jeux videos qui communique avec une API*]
++
+DEMO : https://andrew-phakeovilay.github.io/andrew-projet-react/
++
+_Recherche de jeux vidéos, 
+option favoris, voir les favoris, 
+Mode sombre et optimisation de code_
++
+(React, Vite, Tailwind, Visual Studio Code, Git)
+
+
 * link:pass:[Triathlon-TOAC-G1-2/README.md][*J'ai développé un site triathlon sous WordPress pour le TOAC Triathlon*]
 +
 _Gestion de conflits, 
